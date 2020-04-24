@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/standard.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+
+	<link rel="shortcut icon" href="/favicon.png">
+	<link href="/icons/android/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/icons/android/icon-128.png" rel="icon" sizes="128x128" />
+
+	<style>
+		.algs .col-md-4 {
+			height: 300px;
+		}
+
+		.algs .col-md-4 p {
+			font-size: 17px;
+		}
+	</style>
+
+	<title>PLL | Speedcubing.no</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<img src="/icons/menu.png" alt="meny" style="height:20px;">
+				</button>
+				<a class="navbar-brand" href="/">Speedcubing.no</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="/3x3/">3x3</a></li>
+					<li><a href="/2x2/">2x2</a></li>
+					<li><a href="/4x4/">4x4</a></li>
+					<li><a href="/notasjon/">Notasjon</a></li>
+					<li><a href="/guide/">Vanlige spørsmål</a></li>
+					<li><a href="/about/">Om meg</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+
+		<div class="container">
+			<h1>PLL</h1>
+			<p>Forkortelse for "Permutation of the Last Layer". Det er til sammen 21 algortimer.</p>
+		</div>
+
+	</div>
+
+	<div class="algs">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<h3>A-perm (a)</h3>
+					<img src="/visualcube/pll/Aa.png">
+					<p>x R' U R' D2 R U' R' D2 R2</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>A-perm (b)</h3>
+					<img src="/visualcube/pll/Ab.png">
+					<p>x R2 D2 R U R' D2 R U' R </p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>E-perm</h3>
+					<img src="/visualcube/pll/E.png">
+					<p>x' (R U' R' D) (R U R' D') (R U R' D) (R U' R' D')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>F-perm</h3>
+					<img src="/visualcube/pll/F.png">
+					<p>R' U' F' (R U R' U') R' F R2 U' R' U' R U R' U R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>G-perm (a)</h3>
+					<img src="/visualcube/pll/Ga.png">
+					<p>R2 u R' U R' U' R u' R2 y' R' U R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>G-perm (b)</h3>
+					<img src="/visualcube/pll/Gb.png">
+					<p>F' U' F R2 u R' U R U' R u' R2</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>G-perm (c)</h3>
+					<img src="/visualcube/pll/Gc.png">
+					<p>(U2) R2' F2 R U2 R U2 R' F (R U R' U') R' F R2</p>
+					<p>R2' u' R U' R U R' u R2 y R U' R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>G-perm (d)</h3>
+					<img src="/visualcube/pll/Gd.png">
+					<p>(R U R' U') D R2 U' R U' R' U R' U R2 u' U</p>
+					<p>R U R' y' R2 u' R U' R' U R' u R2</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>H-perm</h3>
+					<img src="/visualcube/pll/H.png">
+					<p>M2' U' M2' U2' M2' U' M2' </p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>J-perm (a)</h3>
+					<img src="/visualcube/pll/Ja.png">
+					<p>x' R2' F R F' R U2 r' U r U2 x</p>
+					<p>(y) R' U L' U2 R U' R' U2 R L U'</p>
+					<p>F U' R' F R2 U' R' U' (R U R' F') (R U R' F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>J-perm (b)</h3>
+					<img src="/visualcube/pll/Jb.png">
+					<p>(R U R' F') (R U R' U') R' F R2 U' R U' </p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>N-perm (a)</h3>
+					<img src="/visualcube/pll/Na.png">
+					<p>(R U R' U) (R U R' F') (R U R' U') R' F R2 U' R' (U2 R U' R')</p>
+					<p>z (U R' D R2 U' R D')*2 R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>N-perm (b)</h3>
+					<img src="/visualcube/pll/Nb.png">
+					<p>z (D' R U' R2' D R' U)*2 R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>R-perm (a)</h3>
+					<img src="/visualcube/pll/Ra.png">
+					<p>(R U R' F') (R U2' R' U2') R' F R U (R U2 R') U'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>R-perm (b)</h3>
+					<img src="/visualcube/pll/Rb.png">
+					<p>(R' U2 R U2) R' F (R U R' U') R' F' R2 U'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>T-perm</h3>
+					<img src="/visualcube/pll/T.png">
+					<p>(R U R' U') R' F R2 U' R' U' (R U R' F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>U-perm (a)</h3>
+					<img src="/visualcube/pll/Ua.png">
+					<p>M2' U M U2 M' U M2'</p>
+					<p>R U' R U R U R U' R' U' R2</p>
+					<p>y2 R2 U' R' U' R U R U R U' R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>U-perm (b)</h3>
+					<img src="/visualcube/pll/Ub.png">
+					<p>M2' U' M U2 M' U' M2'</p>
+					<p>R2 U R U R' U' R' U' R' U R'</p>
+					<p>y2 R' U R' U' R' U' R' U R U R2</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>V-perm</h3>
+					<img src="/visualcube/pll/V.png">
+					<p>(R' U R' U') y R' F' R2 U' R' U (R' F R F)</p>
+					<p>z (D' R2' D) R2 U R' D' (R U' R U) (R' D R U')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Y-perm</h3>
+					<img src="/visualcube/pll/Y.png">
+					<p>F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Z-perm</h3>
+					<img src="/visualcube/pll/Z.png">
+					<p>M2' U' M2' U' M' U2' M2' U2' M' U2</p>
+					<p>y M2' U M2' U M' U2 M2' U2 M' U2</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

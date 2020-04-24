@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/standard.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+
+	<link rel="shortcut icon" href="/favicon.png">
+	<link href="/icons/android/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/icons/android/icon-128.png" rel="icon" sizes="128x128" />
+
+	<style>
+		h2 {
+			text-align: center;
+		}
+	</style>
+
+	<title>4LLL | Speedcubing.no</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<img src="/icons/menu.png" alt="meny" style="height:20px;">
+				</button>
+				<a class="navbar-brand" href="/">Speedcubing.no</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="/3x3/">3x3</a></li>
+					<li><a href="/2x2/">2x2</a></li>
+					<li><a href="/4x4/">4x4</a></li>
+					<li><a href="/notasjon/">Notasjon</a></li>
+					<li><a href="/guide/">Vanlige spørsmål</a></li>
+					<li><a href="/about/">Om meg</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+
+		<div class="container">
+			<h1>4LLL</h1>
+			<p>Forkortelse for "4 Look Last Layer". Disse algoritmene er en enklere variant av OLL/PLL. De løser topplaget i fire algortitmer istedenfor to. Det er til sammen 16 algoritmer å lære.</p>
+		</div>
+
+	</div>
+
+	<div class="algs">
+
+		<div class="container">
+
+			<div class="row">
+
+				<h2>OLL - kanter</h2>
+
+				<div class="col-md-4 col-sm-6 col-sm-6">
+					<img src="/visualcube/oll/line.png">
+					<p>F (R U R' U') F'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/l.png">
+					<p>f (R U R' U') f'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/dot.png">
+					<p>F (R U R' U') F' f (R U R' U') f'</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<h2>OLL - hjørner</h2>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/23.png">
+					<p>R2' D' R U2 R' D R U2 R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/24.png">
+					<p>r U R' U' r' F R F'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/25.png">
+					<p>F R' F' r U R U' r'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/27.png">
+					<p>R U R' U R U2 R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/26.png">
+					<p>R U2 R' U' R U' R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/22.png">
+					<p>R U2' R2' U' R2 U' R2' U2' R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/oll/21.png">
+					<p>R U2 R' U' (R U R' U') R U' R'</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<h2>PLL - hjørner</h2>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>T-perm</h3>
+					<img src="/visualcube/pll/adj.png">
+					<p>(R U R' U') R' F R2 U' R' U' (R U R' F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Y-perm</h3>
+					<img src="/visualcube/pll/diag.png">
+					<p>F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<h2>PLL - kanter</h2>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Ua-perm</h3>
+					<img src="/visualcube/pll/Ua.png">
+					<p>M2' U M U2 M' U M2'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Ub-perm</h3>
+					<img src="/visualcube/pll/Ub.png">
+					<p>M2' U' M U2 M' U' M2'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>H-perm</h3>
+					<img src="/visualcube/pll/H.png">
+					<p>M2' U' M2' U2' M2' U' M2' </p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Z-perm</h3>
+					<img src="/visualcube/pll/Z.png">
+					<p>M2' U' M2' U' M' U2' M2' U2' M' U2</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

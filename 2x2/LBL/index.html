@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/standard.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+
+	<link rel="shortcut icon" href="/favicon.png">
+	<link href="/icons/android/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/icons/android/icon-128.png" rel="icon" sizes="128x128" />
+
+	<title>2x2 LBL | Speedcubing.no</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<img src="/icons/menu.png" alt="meny" style="height:20px;">
+				</button>
+				<a class="navbar-brand" href="/">Speedcubing.no</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="/3x3/">3x3</a></li>
+					<li><a href="/2x2/">2x2</a></li>
+					<li><a href="/4x4/">4x4</a></li>
+					<li><a href="/notasjon/">Notasjon</a></li>
+					<li><a href="/guide/">Vanlige spørsmål</a></li>
+					<li><a href="/about/">Om meg</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+
+		<div class="container">
+			<h1>Layer By Layer (LBL)</h1>
+			<p>Dette er en av de enkleste metodene for 2x2, og regnes som "nybegynnermetoden".</p>
+		</div>
+
+	</div>
+
+	<div class="algs">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 1</h3>
+					<img src="/visualcube/2x2layer.png">
+					<p>Løs det første laget på kuben. Dette er enkelt hvis du allerede kan løse 3x3. Hvis du sliter, kan du se <a href="https://www.youtube.com/watch?v=_H-AwD4gyTA&feature=youtu.be&t=1m12s">denne videoen</a>.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 2</h3>
+					<img src="/visualcube/2x2oll.png">
+					<p>Orienter det siste laget (OLL). Algoritmer finner du under.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 3</h3>
+					<img src="/visualcube/2x2pll.png">
+					<p>Permuter det siste laget (PLL). Algoritmer finner du under.</p>
+				</div>
+
+			</div>
+
+			<h2 class="centre">Algoritmer for OLL:</h2>
+			<p class="centre"><b>OLL på 2x2 kan løses med kun 2 algoritmer. Disse kalles Sune og Anti-Sune, og løser disse OLL-ene:</b></p>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<h3>Sune</h3>
+					<img src="/visualcube/2x2oll/s.png">
+					<p>R U R' U R U2 R'</p>
+				</div>
+
+				<div class="col-md-6">
+					<h3>Anti-Sune</h3>
+					<img src="/visualcube/2x2oll/as.png">
+					<p>R U2 R' U' R U' R'</p>
+				</div>
+
+			</div>
+
+			<p class="centre"><b>Ved å bruke kombinasjoner av Sune og Anti-Sune, kan vi også løse resten av OLL-tilfellene:</b></p>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/pi.png">
+					<p>Sune U Sune</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/u.png">
+					<p>U2 Anti-Sune U' Sune</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/l.png">
+					<p>Sune U2 Anti-Sune</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/t.png">
+					<p>Sune U' Anti-Sune</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/h.png">
+					<p>Anti-Sune x2</p>
+				</div>
+
+			</div>
+
+			<h2 class="centre">Algoritmer for PLL:</h2>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<img src="/visualcube/2x2pll/tperm.png">
+					<p>(R' F R F') (R U2 R') U (R U2 R')</p>
+				</div>
+
+				<div class="col-md-6">
+					<img src="/visualcube/2x2pll/yperm.png">
+					<p>F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

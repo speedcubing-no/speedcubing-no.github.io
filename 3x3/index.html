@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/standard.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+
+	<link rel="shortcut icon" href="/favicon.png">
+	<link href="/icons/android/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/icons/android/icon-128.png" rel="icon" sizes="128x128" />
+
+	<style>
+		.algs .col-md-4 {
+			height: 290px;
+		}
+
+		.algs .col-md-4 p {
+			font-size: 17px;
+		}
+	</style>
+
+	<title>3x3 | Speedcubing.no</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<img src="/icons/menu.png" alt="meny" style="height:20px;">
+				</button>
+				<a class="navbar-brand" href="/">Speedcubing.no</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="/3x3/">3x3</a></li>
+					<li><a href="/2x2/">2x2</a></li>
+					<li><a href="/4x4/">4x4</a></li>
+					<li><a href="/notasjon/">Notasjon</a></li>
+					<li><a href="/guide/">Vanlige spørsmål</a></li>
+					<li><a href="/about/">Om meg</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>3x3</h1>
+			<p>Velkommen! Hvis du vil lære deg å løse Rubiks kube, har du kommet til rett sted. Hvis du aldri har vært borti kuber før, kan du sjekke ut <a href="https://youtu.be/Wf3YgBZMVyw">denne videoen på YouTube</a>. Den forklarer en relativt enkel nybegynnermetode kalt Layer By Layer. Med litt trening, er det mulig å få tider under ett minutt med denne metoden!</p>
+
+			<p>Har du lært deg å løse 3x3, og ønsker å ta steget videre for å bli raskere? Under finner du informasjon om de forskjellige mulighetene du har, samt algoritmer for en av metodene. </p>
+
+		</div>
+	</div>
+
+
+	<div class="text">
+		<div class="container">
+
+			<h2 class="center">Hvilke muligheter har jeg?</h2>
+			<p class="center">Det er i hovedsak tre speedcubing-metoder som er aktuelle å lære i dag. Det er CFOP, Roux og ZZ.</p>
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<h3>CFOP</h3>
+					<p>CFOP er uten tvil den mest populære metoden, og brukes av mange av de beste i verden. Det er en forkortelse for Cross, F2L, OLL, PLL og bygger på nybegynnermetoden (Layer By Layer). Noe du må huske på hvis du velger CFOP, er at den bruker mange algoritmer, så hvis du går for denne, må du se fram til mye å lære. En fordel er at den har mye til felles med nybegynnermetoden. Algoritmene du finner under er hovedsakelig for CFOP, men enkelte sett kan også være nyttige i andre metoder.<br> <a href="https://www.youtube.com/watch?v=VwvGWNfcgs8" target="_blank">Lær deg CFOP her!</a>
+				</div>
+
+				<div class="col-md-4">
+					<h3>Roux</h3>
+					<p>Roux er ganske spesiell. Den baserer seg mye på bruk av M-skiven, altså midtlaget på kuben. Dette liker mange godt, men noen hater det. Det er opp til deg å finne ut av om du liker M-trekk. Roux bruker relativt få algoritmer, og dette synes mange er bra. Den beste Roux-løseren i verden heter Kian Mansour, og er <b>den tredje raskeste i verden</b> for løsning med én hånd (i skrivende stund). <br> <a href="https://www.youtube.com/watch?v=pj_IsOCJS3k&list=PLBHocHmPzgIjnAbNLHDycgaCP5IqiwnU9&index=2&t=0s" target="_blank">Lær deg Roux her!</a>
+				</div>
+
+				<div class="col-md-4">
+					<h3>ZZ</h3>
+					<p>ZZ kan minne om CFOP, men den er langt fra lik. Nøkkelen i ZZ er at du plasserer alle kantbitene riktig vei før du gjør resten av løsnignen. Dette betyr at de to første lagene kan løses rotasjonsfritt, og med bare R, U og L-trekk. F2L i ZZ er derfor veldig behagelig. I tillegg er det mange forskjellige muligheter for hvordan du løser det siste laget. Phil Yu bruker ZZ og snitter <b>rundt 13 sekunder med én hånd</b>.<br><a href="https://www.youtube.com/watch?v=Q9f-uHyHeQs&list=PLD9771CF83F13B110&index=1" target="_blank">Lær deg ZZ her!</a>
+				</div>
+
+			</div>
+
+			<h2 class="center">Hvilken metode skal jeg velge?</h2>
+			<p>Det er opp til deg. Personlig bruker jeg CFOP, det er en god og allsidig metode som fungerer bra for både vanlig løsning med to hender, enhåndsløsning og løsning med føttene, og er i tillegg bra for kuber som 4x4 og større. Roux er bra for vanlig 3x3, og har de siste årene vist seg å være en meget solid metode også for enhåndsløsning. ZZ er svært bra for løsning med én hånd, men er mindre bra for store kuber. Les deg litt opp på hver metode før du bestemmer deg. <a href="https://www.youtube.com/watch?v=QKK8J3JKWi4" target="_blank">Denne videoen på YouTube</a> tar for seg noen fordeler og ulemper med hver av metodene.</p>
+
+		</div>
+
+	</div>
+
+	<div class="algs">
+
+		<div class="container">
+
+			<h2 class="center">Algoritmer for CFOP</h2>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<h3><a href="4LLL/">4LLL</a></h3>
+					<a href="4LLL/"><img src="/visualcube/ll.png" alt="4LLL"></a>
+					<p>Forkortelse for "4 look last layer". En variant av OLL + PLL som er lettere å lære.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3><a href="F2L/">F2L</a></h3>
+					<a href="F2L/"><img src="/visualcube/f2l.png" alt="F2L"></a>
+					<p>Noen algoritmer for vanskelige F2L-par.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3><a href="#">OLL</a></h3>
+					<a href="OLL/"><img src="/visualcube/oll.png" alt="OLL"></a>
+					<p>Orientasjon av det siste laget.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3><a href="PLL/">PLL</a></h3>
+					<a href="PLL/"><img src="/visualcube/ll.png" alt="PLL"></a>
+					<p>Algoritmene jeg bruker for å permutere det siste laget.</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

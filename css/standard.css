@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(/fonts/Comfortaa.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans.ttf);
+}
+
+#myNavbar {
+    float: right;
+}
+
+#nav {
+    background-color: white;
+}
+
+#dropdown a {
+    font-size: 17px;
+}
+
+.col-md-4 img, .col-md-6 img, .col-md-12 img {
+    max-width: 115%;
+    width: 170px;
+    height: 170px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Comfortaa;
+}
+
+#nav a {
+    color: #58ACFA;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#nav a:hover {
+    color: #81BEF7;
+}
+
+#nav .active a {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6E6E6E;
+    border-radius: 10px;
+}
+
+.navbar-header a {
+    font-size: 18px;
+    font-family: Comfortaa;
+}
+
+.jumbotron {
+    margin-top: 60px;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #D7EBFF;
+}
+
+.jumbotron h1 {
+    font-family: Comfortaa;
+    font-weight: light;
+    word-wrap: break-word;
+}
+
+.jumbotron p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.text {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.centre {
+    height: auto;
+    margin-top: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    /* background-color: transparent; */
+}
+
+.main {
+    background-color: transparent;
+}
+
+.main p, .main h1 {
+    color: #424242;
+}
+
+.center {
+    text-align: center;
+}
+
+.circle img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-top: 30px;
+}
+
+h3 {
+    font-weight: normal;
+    color: #424242;
+    font-family: Comfortaa;
+}
+
+h2 {
+    font-weight: light;
+    font-family: Comfortaa;
+    color: #424242;
+}
+
+p {
+    font-family: OpenSans;
+    font-size: 115%;
+    color: #424242;
+}
+
+h1, h2, h3 a {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    color: #58ACFA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #81BEF7;
+}
+
+.algs .col-md-4, .algs .col-md-6, .col-md-12 {
+    text-align: center;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.text .col-md-4 p {
+    font-family: OpenSans;
+    font-size: 115%;
+    text-align: left;
+}
+
+body {
+    overflow-y: scroll;
+    background-color: #F6F6F6;
+    margin-bottom: 50px;
+}
+
+.comfortaa p, h1, h2, h3 {
+    font-family: Comfortaa;
+}

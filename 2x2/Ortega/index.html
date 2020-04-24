@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/standard.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+
+	<link rel="shortcut icon" href="/favicon.png">
+	<link href="/icons/android/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/icons/android/icon-128.png" rel="icon" sizes="128x128" />
+
+	<title>2x2 Ortega | Speedcubing.no</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<img src="/icons/menu.png" alt="meny" style="height:20px;">
+				</button>
+				<a class="navbar-brand" href="/">Speedcubing.no</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="/3x3/">3x3</a></li>
+					<li><a href="/2x2/">2x2</a></li>
+					<li><a href="/4x4/">4x4</a></li>
+					<li><a href="/notasjon/">Notasjon</a></li>
+					<li><a href="/guide/">Vanlige spørsmål</a></li>
+					<li><a href="/about/">Om meg</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+
+		<div class="container">
+			<h1>Ortega/Varasano</h1>
+			<p>Ortega, også kalt Varasano, er en 2x2-metode for litt viderekommende. Her trenger du 11 algoritmer.</p>
+		</div>
+
+	</div>
+
+	<div class="algs">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 1</h3>
+					<img src="/visualcube/2x2face.png">
+					<p><b>Løs en side på kuben.</b> Å løse et lag er ikke nødvendig, kun en side.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 2</h3>
+					<img src="/visualcube/2x2oll.png">
+					<p><b>Orienter det siste laget (OLL).</b> Algoritmer finner du under.</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<h3>Steg 3</h3>
+					<img src="/visualcube/2x2pbl.png">
+					<p><b>Permuter begge lagene samtidig (PBL).</b> Algoritmer finner du under.</p>
+				</div>
+
+			</div>
+
+			<h2 class="centre">Algoritmer for OLL:</h2>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/s.png">
+					<p>R U R' U R U2 R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/as.png">
+					<p>R U2 R' U' R U' R'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/pi.png">
+					<p>F (R U R' U') (R U R' U') F'</p>
+					<p>R U2 R2 U' R2 U' R2 U2 R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/u.png">
+					<p>F (R U R' U') F'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/l.png">
+					<p>(F R' F' R) (U R U' R')</p>
+					<p>F (R U' R' U') (R U R' F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/t.png">
+					<p>(R U R' U') (R' F R F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/2x2oll/h.png">
+					<p>R2 U2 R U2 R2</p>
+				</div>
+
+			</div>
+
+			<h2 class="centre">Algoritmer for PBL:</h2>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/pbl/barboth.png">
+					<p>(y2) R2 U' R2' U2 y R2 U' R2'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/pbl/bartop.png">
+					<p>R U' L U2 R' U L'</p>
+					<p>y2 R' U R' F2 R F R</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/pbl/nobar.png">
+					<p>R2' F2 R2</p>
+					<p>R2 B2 R2'</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/pbl/tperm2.png">
+					<p>(y) (R' F R F') (R U2' R') U (R U2' R')</p>
+					<p>R' U L' U2 R U' R' U2 R2 x'</p>
+					<p>(y) (R U R' U') R' F R2 U' R' U' (R U R' F')</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<img src="/visualcube/pbl/yperm.png">
+					<p>F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
